@@ -28,6 +28,8 @@ docker logs <container_name>
 composer require symfony/http-foundation
 composer require symfony/routing
 composer require symfony/http-kernel
+composer require --dev phpunit/phpunit
+composer require symfony/event-dispatcher
 ```
 
 Ссылка для запуска проекта:
@@ -42,4 +44,9 @@ http://localhost:8083/is_leap_year/2222
    sudo chown -R user:group /home/user/dir/
 2. Изменение прав папки и файлов
    sudo chmod -R 777 /var/www/darix/serv
+```
+
+Запуск модульных тестов:
+```php
+./vendor/bin/phpunit
 ```
