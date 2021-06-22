@@ -30,6 +30,7 @@ composer require symfony/routing
 composer require symfony/http-kernel
 composer require --dev phpunit/phpunit
 composer require symfony/event-dispatcher
+composer require symfony/dependency-injection
 ```
 
 Ссылка для запуска проекта:
